@@ -40,3 +40,28 @@
 #' }
 #' @source \url{https://github.com/camminady/LeTourDataSet}
 "letour"
+
+#' All athletes competing in the Olympic Games
+#'
+#' A dataset containing all athletes competing in any event of the modern
+#' Olympic Games.
+#'
+#' @format A data frame with 271116 rows and 14 variables:
+#' \describe{
+#'   \item{name}{name of the athlete}
+#'   \item{sex}{sex of the athlete}
+#'   \item{age}{age in years}
+#'   \item{height}{body height in cm}
+#'   \item{weight}{bodyweight in kg}
+#'   \item{nation}{nationality}
+#'   \item{noc}{National Olympic Commitee to compete for}
+#'   \item{games}{location and year of the Olympic Games}
+#'   \item{year}{year of the Olympic Games}
+#'   \item{season}{either `Summer` or `Winter`}
+#'   \item{city}{host city}
+#'   \item{sport}{type of sport}
+#'   \item{event}{event to participate}
+#'   \item{medal}{which medal was won}
+#' }
+#' @source \url{https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results}
+"olympics"
