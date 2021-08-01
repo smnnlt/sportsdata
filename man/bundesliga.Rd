@@ -19,7 +19,7 @@ A data frame with 36962 rows and 14 variables:
 \item{score_half_home}{goals scored by the home team until halftime}
 \item{score_half_guest}{goals scored by the guest team until halftime}
 \item{points_home}{points achieved by the home team}
-\item{points_home}{points achieved by the guest team}
+\item{points_guest}{points achieved by the guest team}
 \item{league}{either first or second division}
 }
 }
