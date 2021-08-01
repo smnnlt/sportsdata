@@ -65,3 +65,30 @@
 #' }
 #' @source \url{https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results}
 "olympics"
+
+
+#' Data from NFL combines and pro days
+#'
+#' A dataset containing anthropometric and physical measures from NFL combine
+#' and pro days since 1987.
+#'
+#' @format A data frame with 13230 rows and 12 variables:
+#' \describe{
+#'   \item{year}{year of the recording}
+#'   \item{name}{name of the athlete}
+#'   \item{college}{college of the athlete}
+#'   \item{position}{position on field}
+#'   \item{height}{body height in inches}
+#'   \item{weight}{bodyweight in lbs}
+#'   \item{sprint}{time to cover 40 yrds in s ('Forty Yard Dash')}
+#'   \item{bench}{number of repetition for 225lb bench press('Bench Press')}
+#'   \item{jump_vertical}{maximal height of touching during a vertical jump in
+#'     inches ('Vertical Leap')}
+#'   \item{jump_broad}{length of standing long jump in inches ('Broad Jump')}
+#'   \item{shuttle}{time to cover a short agility test in s ('20-yard Shuttle
+#'     Drill')}
+#'   \item{cone}{duration of a change-of-direction and reaction test ('Three
+#'     Cone Drill')}
+#' }
+#' @source \url{https://github.com/josedv82/public_sport_science_datasets}
+"nflcombine"
