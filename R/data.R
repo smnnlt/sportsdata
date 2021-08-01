@@ -21,3 +21,22 @@
 #' }
 #' @source \url{https://github.com/camminady/AllBundesligaGamesEver}
 "bundesliga"
+
+#' All riders of the Tour de France
+#'
+#' A dataset containing the individual results for all riders of the Tour de
+#' France.
+#'
+#' @format A data frame with 9452 rows and 8 variables:
+#' \describe{
+#'   \item{year}{year of holding}
+#'   \item{name}{name of the rider}
+#'   \item{rank}{final position in classement generale}
+#'   \item{distance}{total distance in km}
+#'   \item{pace}{individual average pace in km/h}
+#'   \item{team}{name of the rider's team}
+#'   \item{time}{total time in seconds}
+#'   \item{stages}{number of stages}
+#' }
+#' @source \url{https://github.com/camminady/LeTourDataSet}
+"letour"
