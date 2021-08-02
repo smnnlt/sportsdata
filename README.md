@@ -22,6 +22,12 @@ A collection of exercise science datasets.
 -   `olympics`: All athletes competing in the modern Olympic Games.
     [(Source)](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
+Small datasets for teaching and learning:
+
+-   `rioathletics`: Medal winners in three athletic disciplines of the
+    Rio 2016 Olympic Games.
+-   `swimstars`: Data on some of the best swimmers in history.
+
 ## Installation
 
 You can install the development version from
