@@ -46,12 +46,6 @@ inches_to_cm <- function(value) {
 }
 
 fifa21$height <- map_dbl(fifa21$height, inches_to_cm)
-
-lbs_to_kg <- function(value) {
-  x <- sub("lbs","",value)
-  round(as.numeric(x) * 0.4536,1)
-}
-
 fifa21$weight <- map_dbl(fifa21$weight, lbs_to_kg)
 
 fifa21$foot <- factor(fifa21$foot,

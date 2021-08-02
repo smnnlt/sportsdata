@@ -9,4 +9,9 @@ nflcombine <- read.csv("data-raw/nflcombine.csv",
                 col.names = cnames,
                 colClasses = ctypes)
 
+nflcombine$weight <- purrr::map_dbl(nflcombine$weight,lbs_to_kg)
+nflcombine$height <- round(nflcombine$height*2.54,0)
+nflcombine$jump_vertical <- round(nflcombine$jump_vertical*2.54,0)
+nflcombine$jump_broad <- round(nflcombine$jump_broad*2.54,0)
+
 usethis::use_data(nflcombine, overwrite = TRUE)

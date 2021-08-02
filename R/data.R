@@ -78,17 +78,17 @@
 #'   \item{name}{name of the athlete}
 #'   \item{college}{college of the athlete}
 #'   \item{position}{position on field}
-#'   \item{height}{body height in inches}
-#'   \item{weight}{bodyweight in lbs}
+#'   \item{height}{body height in cm}
+#'   \item{weight}{bodyweight in kg}
 #'   \item{sprint}{time to cover 40 yrds in s ('Forty Yard Dash')}
 #'   \item{bench}{number of repetition for 225lb bench press('Bench Press')}
 #'   \item{jump_vertical}{maximal height of touching during a vertical jump in
-#'     inches ('Vertical Leap')}
-#'   \item{jump_broad}{length of standing long jump in inches ('Broad Jump')}
+#'     cm ('Vertical Leap')}
+#'   \item{jump_broad}{length of standing long jump in cm ('Broad Jump')}
 #'   \item{shuttle}{time to cover a short agility test in s ('20-yard Shuttle
 #'     Drill')}
-#'   \item{cone}{duration of a change-of-direction and reaction test ('Three
-#'     Cone Drill')}
+#'   \item{cone}{duration of a change-of-direction and reaction test in s
+#'   ('Three Cone Drill')}
 #' }
 #' @source \url{https://github.com/josedv82/public_sport_science_datasets}
 "nflcombine"
