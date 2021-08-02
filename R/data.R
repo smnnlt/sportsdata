@@ -92,3 +92,59 @@
 #' }
 #' @source \url{https://github.com/josedv82/public_sport_science_datasets}
 "nflcombine"
+
+#' FIFA21 statistics for all players
+#'
+#' A dataset containing the FIFA21 statistics for all players in the game.
+#'
+#' @format A data frame with 17108 rows and 46 variables:
+#' \describe{
+#'   \item{name}{name of the player}
+#'   \item{age}{age in years}
+#'   \item{nation}{nation of the player}
+#'   \item{overall}{overall rating}
+#'   \item{potential}{potential rating}
+#'   \item{club}{current club playing for}
+#'   \item{value}{player value in €M}
+#'   \item{foot}{preferred foot}
+#'   \item{number}{jersey number}
+#'   \item{height}{body length in inches}
+#'   \item{weight}{bodyweight in lbs}
+#'   \item{crossing}{crossing rating}
+#'   \item{finishing}{finishing rating}
+#'   \item{heading}{heading accuracy rating}
+#'   \item{passing_short}{short passing rating}
+#'   \item{volley}{volleys rating}
+#'   \item{dribbling}{dribbling rating}
+#'   \item{curve}{curve rating}
+#'   \item{freekick}{freekick accuracy rating}
+#'   \item{passing_long}{long passing rating}
+#'   \item{control}{ball control rating}
+#'   \item{acceleration}{acceleration rating}
+#'   \item{sprint}{sprint speed rating}
+#'   \item{agility}{agility rating}
+#'   \item{reaction}{reactions rating}
+#'   \item{balance}{balance rating}
+#'   \item{power}{shot power rating}
+#'   \item{jump}{jumping rating}
+#'   \item{stamina}{stamina rating}
+#'   \item{strength}{strength rating}
+#'   \item{shots_long}{long shot rating}
+#'   \item{aggression}{aggression rating}
+#'   \item{interceptions}{interceptions rating}
+#'   \item{positioning}{positioning rating}
+#'   \item{vision}{vision rating}
+#'   \item{penalty}{penalties rating}
+#'   \item{composure}{composure rating}
+#'   \item{tackling_stand}{standing tackle rating}
+#'   \item{tackling_slide}{sliding tackling rating}
+#'   \item{gk_diving}{diving rating (goal keeper)}
+#'   \item{gk_handling}{handling rating (goal keeper)}
+#'   \item{gk_kicking}{kicking rating (goal keeper)}
+#'   \item{gk_positioning}{positioning rating (goal keeper)}
+#'   \item{gk_reflexes}{reflexes rating (goal keeper)}
+#'   \item{position}{best position}
+#'   \item{defawareness}{defensive awareness rating}
+#' }
+#' @source \url{https://www.kaggle.com/bryanb/fifa-player-stats-database}
+"fifa21"
