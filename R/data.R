@@ -148,3 +148,36 @@
 #' }
 #' @source \url{https://www.kaggle.com/bryanb/fifa-player-stats-database}
 "fifa21"
+
+#' Some of the best swimmers in history
+#'
+#' A small example dataset containing information for some of the most famous
+#' and successful swimmers in the world.
+#'
+#' @format A data frame with 5 rows and 5 variables:
+#' \describe{
+#'   \item{name}{name of the swimmer}
+#'   \item{sex}{sex of the swimmer}
+#'   \item{nation}{nationality of the swimmer}
+#'   \item{olympics}{number of Olympic Games participated}
+#'   \item{medals}{number of Olympic medals won}
+#' }
+"swimstars"
+
+#' Some medal winners in Rio 2016 athletic competitions
+#'
+#' A small example dataset containing information for medal winners in shot put,
+#' high jump and 5000m running in the Rio 2016 Olympic Games.
+#'
+#' @format A data frame with 18 rows and 8 variables:
+#' \describe{
+#'   \item{name}{name of the athlete}
+#'   \item{sex}{sex of the athlete}
+#'   \item{age}{age of the athlete in years}
+#'   \item{height}{body length in cm}
+#'   \item{weight}{bodyweight in kg}
+#'   \item{nation}{nationality of the athlete}
+#'   \item{event}{event in which the medal was won}
+#'   \item{medal}{type of medal won}
+#' }
+"rioathletics"
