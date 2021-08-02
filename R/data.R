@@ -108,8 +108,8 @@
 #'   \item{value}{player value in €M}
 #'   \item{foot}{preferred foot}
 #'   \item{number}{jersey number}
-#'   \item{height}{body length in inches}
-#'   \item{weight}{bodyweight in lbs}
+#'   \item{height}{body length in cm}
+#'   \item{weight}{bodyweight in kg}
 #'   \item{crossing}{crossing rating}
 #'   \item{finishing}{finishing rating}
 #'   \item{heading}{heading accuracy rating}
