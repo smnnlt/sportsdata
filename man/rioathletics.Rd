@@ -3,7 +3,7 @@
 \docType{data}
 \name{rioathletics}
 \alias{rioathletics}
-\title{Some medal winners in Rio 2016 athletic competitions}
+\title{Contestants in some Rio 2016 Olympic athletic competitions}
 \format{
 A data frame with 18 rows and 8 variables:
 \describe{
@@ -21,7 +21,7 @@ A data frame with 18 rows and 8 variables:
 rioathletics
 }
 \description{
-A small example dataset containing information for medal winners in shot put,
-high jump and 5000m running in the Rio 2016 Olympic Games.
+A dataset containing information for athletes competing in the shot put,
+high jump and 5000m running events at the Rio 2016 Olympic Games.
 }
 \keyword{datasets}

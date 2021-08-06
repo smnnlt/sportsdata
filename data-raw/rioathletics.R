@@ -9,7 +9,6 @@ evnts <- c(
 rioathletics <- olympics |>
   filter(year == 2016) |>
   filter(event %in% evnts) |>
-  filter(!is.na(medal)) |>
   select(-(noc:sport)) |>
   mutate(event = sub("Athletics Women's","",event)) |>
   mutate(event = sub("Athletics Men's","",event))

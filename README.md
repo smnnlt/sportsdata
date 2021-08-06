@@ -26,8 +26,8 @@ A collection of exercise science datasets.
 
 Small datasets for teaching and learning:
 
--   `rioathletics`: Medal winners in three athletic disciplines of the
-    Rio 2016 Olympic Games.
+-   `rioathletics`: Competitors in three athletic disciplines of the Rio
+    2016 Olympic Games.
 -   `swimstars`: Data on some of the best swimmers in history.
 
 ## Installation
