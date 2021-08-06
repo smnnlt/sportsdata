@@ -184,7 +184,7 @@
 
 #' Ride data for the Amstel Gold Race 2019
 #'
-#' A dataset containing GPS, power and heartrate data from three athletes
+#' A dataset containing GPS, power and heart rate data from three athletes
 #' finishing the Amstel Gold Race 2019 under the top ten riders.
 #'
 #' @format A data frame with 69867 rows and 9 variables:
@@ -200,4 +200,4 @@
 #'   \item{power}{measured power in watts}
 #' }
 #' @source \url{https://strava.com/}
-"amstel19"
+"amstelgold"
