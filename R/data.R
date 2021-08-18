@@ -169,7 +169,7 @@
 #' A dataset containing information for athletes competing in the shot put,
 #' high jump and 5000m running events at the Rio 2016 Olympic Games.
 #'
-#' @format A data frame with 18 rows and 8 variables:
+#' @format A data frame with 233 rows and 8 variables:
 #' \describe{
 #'   \item{name}{name of the athlete}
 #'   \item{sex}{sex of the athlete}
@@ -201,3 +201,20 @@
 #' }
 #' @source \url{https://strava.com/}
 "amstelgold"
+
+
+#' All gymnasts competing in the Rio 2016 Olympic Games.
+#'
+#' A dataset containing information on athletes competing in the gymnastics
+#' events at the Rio 2016 Olympic Games.
+#'
+#' @format A data frame with 196 rows and 6 variables:
+#' \describe{
+#'   \item{name}{name of the athlete}
+#'   \item{sex}{sex of the athlete}
+#'   \item{age}{age of the athlete in years}
+#'   \item{height}{body length in cm}
+#'   \item{weight}{bodyweight in kg}
+#'   \item{nation}{nationality of the athlete}
+#' }
+"gymnastics"

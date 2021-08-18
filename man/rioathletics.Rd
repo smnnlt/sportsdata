@@ -5,7 +5,7 @@
 \alias{rioathletics}
 \title{Contestants in some Rio 2016 Olympic athletic competitions}
 \format{
-A data frame with 18 rows and 8 variables:
+A data frame with 233 rows and 8 variables:
 \describe{
 \item{name}{name of the athlete}
 \item{sex}{sex of the athlete}
