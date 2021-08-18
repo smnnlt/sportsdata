@@ -218,3 +218,30 @@
 #'   \item{nation}{nationality of the athlete}
 #' }
 "gymnastics"
+
+#' Development of Spanish football goalkeepers according to FIFA ratings
+#'
+#' A dataset containing FIFA scores for 21 Spanish goalkeepers with an overall rating
+#' greater or equal to 70 in both years 2017 and 2021.
+#'
+#' @format A data frame with 42 rows and 17 variables:
+#' \describe{
+#'   \item{name}{name of the player}
+#'   \item{age}{age in years}
+#'   \item{nation}{nation of the player}
+#'   \item{overall}{overall rating}
+#'   \item{potential}{potential rating}
+#'   \item{club}{current club playing for}
+#'   \item{value}{player value in €M}
+#'   \item{foot}{preferred foot}
+#'   \item{number}{jersey number}
+#'   \item{height}{body length in cm}
+#'   \item{weight}{bodyweight in kg}
+#'   \item{gk_diving}{diving rating}
+#'   \item{gk_handling}{handling rating}
+#'   \item{gk_kicking}{kicking rating}
+#'   \item{gk_positioning}{positioning rating}
+#'   \item{gk_reflexes}{reflexes rating}
+#'   \item{year}{year of the data, either 2017 or 2021}
+#' }
+"goalkeepers"
