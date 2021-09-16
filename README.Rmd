@@ -16,9 +16,11 @@ knitr::opts_chunk$set(
 # sportsdata
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/sportsdata)](https://CRAN.R-project.org/package=sportsdata)
 <!-- badges: end -->
 
-A collection of exercise science datasets.
+A collection of datasets from sports.
 
 ## Datasets
 
@@ -44,5 +46,10 @@ You can install the development version from [GitHub](https://github.com/smnnlt/
 remotes::install_github("smnnlt/sportsdata")
 ```
 
+## License & Contribution
 
+The datasets in this package are available in public domain under a CC-0 license. The code of this package is additionally licensed under a MIT license.
 
+If you encounter any bug or want to suggest a new data set, please [submit an issue](https://github.com/smnnlt/sportsdata/issues) or write me a message. If you are familiar with writing R code, feel free to submit a pull request.
+
+Please note that the sportsdata package is released with a [Contributor Code of Conduct](https://github.com/smnnlt/sportsdata/blob/main/CODE_OF_CONDUCT.md). By contributing to this package, you agree to abide by its terms.

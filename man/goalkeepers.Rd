@@ -3,9 +3,9 @@
 \docType{data}
 \name{goalkeepers}
 \alias{goalkeepers}
-\title{Development of football goalkeepers according to FIFA ratings}
+\title{Development of Spanish football goalkeepers according to FIFA ratings}
 \format{
-A data frame with 186 rows and 17 variables:
+A data frame with 42 rows and 17 variables:
 \describe{
 \item{name}{name of the player}
 \item{age}{age in years}
@@ -30,7 +30,7 @@ A data frame with 186 rows and 17 variables:
 goalkeepers
 }
 \description{
-A dataset containing FIFA scores for all goalkeepers with an overall rating
-greater or equal to 75 in both years 2017 and 2021.
+A dataset containing FIFA scores for 21 Spanish goalkeepers with an overall rating
+greater or equal to 70 in both years 2017 and 2021.
 }
 \keyword{datasets}
