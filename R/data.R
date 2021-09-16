@@ -182,26 +182,6 @@
 #' }
 "rioathletics"
 
-#' Ride data for the Amstel Gold Race 2019
-#'
-#' A dataset containing GPS, power and heart rate data from three athletes
-#' finishing the Amstel Gold Race 2019 under the top ten riders.
-#'
-#' @format A data frame with 69867 rows and 9 variables:
-#' \describe{
-#'   \item{racetime}{time since the start of the race in seconds}
-#'   \item{athlete}{athlete identifier}
-#'   \item{altitude}{altitude measured by GPS in m}
-#'   \item{lat}{latitude measured by GPS in degree}
-#'   \item{lon}{longitude measured by GPS in degree}
-#'   \item{cadence}{pedalling cadence in 1/min}
-#'   \item{heartrate}{measured heart rate in bpm}
-#'   \item{temperature}{temperature in degree Celsius}
-#'   \item{power}{measured power in watts}
-#' }
-#' @source \url{https://strava.com/}
-"amstelgold"
-
 
 #' All gymnasts competing in the Rio 2016 Olympic Games.
 #'

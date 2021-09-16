@@ -22,7 +22,6 @@ A collection of exercise science datasets.
 
 ## Datasets
 
-* `amstelgold`: Power data from three top ten finishers of the 2019 Amstel Gold cycling race.
 * `bundesliga`: Results of all games of the first and second German Bundesliga. [(Source)](https://github.com/camminady/AllBundesligaGamesEver)
 * `fifa21`: Statistics for all players in FIFA21. [(Source)](https://www.kaggle.com/bryanb/fifa-player-stats-database)
 * `letour`: End results for all riders competing in the Tour de France. [(Source)](https://github.com/camminady/LeTourDataSet)
@@ -40,9 +39,9 @@ Small datasets for teaching and learning:
 
 You can install the development version from [GitHub](https://github.com/smnnlt/sportsdata) with:
 
-``` r
-# install.packages("devtools")
-devtools::install_github("smnnlt/sportsdata")
+``` {r, eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("smnnlt/sportsdata")
 ```
 
 

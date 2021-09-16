@@ -10,8 +10,6 @@ A collection of exercise science datasets.
 
 ## Datasets
 
--   `amstelgold`: Power data from three top ten finishers of the 2019
-    Amstel Gold cycling race.
 -   `bundesliga`: Results of all games of the first and second German
     Bundesliga.
     [(Source)](https://github.com/camminady/AllBundesligaGamesEver)
@@ -40,6 +38,6 @@ You can install the development version from
 [GitHub](https://github.com/smnnlt/sportsdata) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("smnnlt/sportsdata")
+# install.packages("remotes")
+remotes::install_github("smnnlt/sportsdata")
 ```
