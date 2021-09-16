@@ -13,6 +13,9 @@ status](https://www.r-pkg.org/badges/version/sportsdata)](https://CRAN.R-project
 
 A collection of datasets from sports.
 
+> WARNING: This package is currently under early development. Datasets
+> and its contents may change in the future.
+
 ## Datasets
 
 -   `bundesliga`: Results of all games of the first and second German
@@ -60,5 +63,5 @@ submit a pull request.
 
 Please note that the sportsdata package is released with a [Contributor
 Code of
-Conduct](https://github.com/smnnlt/sportsdata/blob/main/CODE_OF_CONDUCT.md).
+Conduct](https://github.com/smnnlt/sportsdata/blob/master/CODE_OF_CONDUCT.md).
 By contributing to this package, you agree to abide by its terms.

@@ -22,6 +22,8 @@ knitr::opts_chunk$set(
 
 A collection of datasets from sports.
 
+> WARNING: This package is currently under early development. Datasets and its contents may change in the future.
+
 ## Datasets
 
 * `bundesliga`: Results of all games of the first and second German Bundesliga. [(Source)](https://github.com/camminady/AllBundesligaGamesEver)
@@ -52,4 +54,4 @@ The datasets in this package are available in public domain under a CC-0 license
 
 If you encounter any bug or want to suggest a new data set, please [submit an issue](https://github.com/smnnlt/sportsdata/issues) or write me a message. If you are familiar with writing R code, feel free to submit a pull request.
 
-Please note that the sportsdata package is released with a [Contributor Code of Conduct](https://github.com/smnnlt/sportsdata/blob/main/CODE_OF_CONDUCT.md). By contributing to this package, you agree to abide by its terms.
+Please note that the sportsdata package is released with a [Contributor Code of Conduct](https://github.com/smnnlt/sportsdata/blob/master/CODE_OF_CONDUCT.md). By contributing to this package, you agree to abide by its terms.
